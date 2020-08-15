@@ -106,7 +106,7 @@ node *sumTwoPol(node *p1, node *p2){
             t1 = t1->next;
         }else{
             res = addToLast(res, t2->coeff, t2->pow);
-            t1 = t2->next;
+            t2 = t2->next;
         }
     }
     // 
